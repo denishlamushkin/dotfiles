@@ -80,4 +80,6 @@ fi
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# git bare repo
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
