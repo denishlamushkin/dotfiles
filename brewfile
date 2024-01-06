@@ -1,8 +1,0 @@
-brew lua
-brew gcc
-brew cmake
-brew python3
-brew ffmpeg
-brew llvm
-brew neovim
-brew mpv
