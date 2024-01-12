@@ -84,3 +84,4 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vim='nvim'
 
+fpath+=${ZDOTDIR:-~}/.zsh_functions
